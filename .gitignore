@@ -1,0 +1,31 @@
+# ===== 비밀 =====
+# 실제 접속 정보. 절대 커밋하지 않는다. 배포용은 db.ini.sample 을 참조
+config/db.ini
+config/*.local.ini
+
+# ===== 빌드 =====
+build/
+build-*/
+out/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.dll
+*.exp
+
+# ===== Visual Studio =====
+.vs/
+CMakeSettings.json
+CMakeUserPresets.json
+
+# ===== 산출물 =====
+logs/
+logs-*/
+bench/results/
+*.sql.tmp
+
+# ===== 편집 도구 설정 =====
+.idea/
+*.user
